@@ -1,0 +1,184 @@
+/* CONTAINER */
+.container { width: 1100px; margin: 0 auto; }
+/* Header-bg-image */
+.header-bg-image{
+    background: linear-gradient(rgba(0, 35, 71, 0.8)), url("../img/banner.jpg")center/cover;
+    height: 55vh;}
+/* NAVBAR */
+#all-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;}
+nav a,.fa-search{
+    color:#fff;
+    font: 600 14px arial;
+    text-transform: capitalize;
+    transition: .4s;
+    cursor: pointer;}
+.fa-search { margin-left: 40px; }
+nav a:hover,.fa-search:hover{ color: #fdc632; }
+.dropdown{
+    position: relative;
+    display: inline-block;}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;}
+.dropdown-content a {
+  color: #000;
+  padding: 12px 16px;
+  display: block;}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+/* header-content */
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+.header-content h2{
+    font: 600 45px arial;
+    color: #fff;
+}
+.choose-section{
+    margin-top:10px;
+}
+.choose-section a{
+    font: 400 16px arial;
+    color: #fff;}
+/* iframe-map */
+.map{
+    align-items: center;
+    padding: 130px 0 65px 0;
+}
+.main-contact-us{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-one{
+    line-height: 25px;
+}
+.contant-one-part{
+    display: flex;
+}
+.contant-one-part i{
+    padding-right: 10px;
+    font-size: 20px;
+}
+.contact-text h2{
+    font: 600 16px arial;
+    color: #002347;
+}
+.contact-text p{
+    font: 400 14px arial;
+    padding: 10px 0 20px 0;
+    color: #7b838a;
+}
+.contact-two{
+    display: flex;
+    flex-direction: column;
+}
+.contant-two-part input{
+    width: 330px;
+    padding: 10px 12px;
+    border: 1px solid #eee;
+    outline: none;
+    font: 400 14px arial;
+}
+.contant-two-part{
+    padding-bottom: 10px ;
+}
+.contact-three textarea{
+    width: 400px;
+    height: 150px;
+    padding: 6px 12px 6px 20px;
+    resize: none;
+    outline: none;
+    border: 1px solid #eee;
+    font: 400 14px arial;
+}
+.click{
+    padding-bottom: 130px;
+}
+.click button{
+    background-color: #fdc632;
+    color: #002347;
+    text-transform:uppercase ;
+    float: inline-end;
+    border: 0;
+    padding: 20px 48px ;
+    border-radius: 5px;
+    font: 600 13px arial;
+    cursor: pointer;
+    transition: .4s;
+}
+.click button:hover{
+    background-color: #002347;
+    color: #fdc632;
+}
+/* Footer*/
+.container { width: 1100px;margin: 0 auto; }
+.footer-bg-color { background-color: #002347; padding: 100px 0;}
+#all-footer-links{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links h2,.footer-subscribe h2{
+    font: 600 20px arial;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.footer-links li,.footer-subscribe p{ margin-bottom: 20px; }
+.footer-links a,.footer-subscribe p{
+    font: 500 16px arial;
+    color: #7b838a;
+    transition: .4s;
+}
+.footer-links a:hover { color: #fff; }
+.footer-subscribe input{
+    width: 250px;
+    padding: 12px 0 12px 10px;
+    border: 0;
+    outline: none;
+    background-color: #334f6c;
+}
+::placeholder { font: 500 14px arial; text-transform: capitalize; color: #7b838a; }
+.subs{
+    background-color: #fdc632;
+    color: #002347;
+    text-transform: uppercase;
+    border: 0;
+    padding: 10px 20px;
+    font: 600 13px arial;
+    cursor: pointer;
+}
+#all-footer-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.footer-copyRight p{
+    color: #fff;
+    font: 500 16px arial;
+}
+.footer-icons a{
+    background-color: #334f6c;
+    color: #cccccc;
+    padding: 12px;
+    transition: .4s;
+}
+.footer-icons a:hover { background-color: #fdc632; color: #002347; } 
+ 
