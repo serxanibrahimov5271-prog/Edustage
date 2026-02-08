@@ -364,11 +364,11 @@ transition: .4s;font-weight: 500;margin-top: 20px;}
         .container{width:100%;
             margin:auto;}
         .logo{padding: 20px 30px;}
-        .header-bg-image{position: relative; width: 100%;}
+        .header-bg-image{position: relative; width: 99%;}
         #all-navbar{ display: flex;
             justify-content: space-between;
             background-color: #7b838a;
-            width: 98%;
+            width: 100%;
             position: absolute;}
         nav ul{display:none;}
         .icon-fa{display: block;
@@ -412,7 +412,7 @@ transition: .4s;font-weight: 500;margin-top: 20px;}
         align-items: center;
         justify-content:center;
         margin-bottom: 20px;
-        width: 95%;}
+        width: 100%;}
     .registr-text-content h1{font-size: 42px;font-weight: 600;font-family: "Rubik",sans-serif;
         width: 70%;}
     form{width: 50%; margin-right: 50px;}
@@ -425,6 +425,7 @@ transition: .4s;font-weight: 500;margin-top: 20px;}
      .events-title p{width: 100%;}
     .events-images{flex-wrap: wrap;flex-direction: column;gap: 20px;}
     .image-place{width: 100%;padding: 0 15px 0 0}
+    .overflow-events{margin-left: 15px;}
     .overflow-events img{width: 100%;height: auto;}
     .events-details{right: 15px;}
     .client-image-text2{display: none;}
@@ -442,13 +443,12 @@ transition: .4s;font-weight: 500;margin-top: 20px;}
 
    
 @media(max-width:860px){.container{width: 95% ; margin:auto 0;}
-    header{ width: 100%;}
-    .header-bg-image{width: 98%;}
+    .header-bg-image{width: 99%;}
     #all-navbar{justify-content: space-between;
         position: fixed;
         z-index: 999;
         background-color: #7b838a;
-        width: 98%;}
+        width: 99%;}
     #all-navbar nav ul{display: none;}
     .logo{padding-left:20px;padding-bottom: 15px;}
     .icon-fa{padding-right: 20px;display: block;}
@@ -462,8 +462,7 @@ transition: .4s;font-weight: 500;margin-top: 20px;}
         justify-content: center;}
     section{display: flex;
         align-items: center;
-        justify-content: center;
-        width: 95%;}
+        justify-content: center;}
     .header-links a{margin: 10px 0 0 3px ;}
     .feature-area{display: flex;
         align-items: center;
