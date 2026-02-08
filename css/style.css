@@ -436,7 +436,7 @@ transition: .4s;font-weight: 500;margin-top: 20px;}
    .client-text{margin: 0;}
     #all-footer-links{flex-direction: column;padding-left: 15px;}
     #all-footer-2{flex-direction: column;}
-    .footer-bg-color{width: 98%;}
+    .footer-bg-color{width: 100%;}
     .footer-copyright{text-align: center;}
     .footer-icons{padding: 20px 0;}
 }
@@ -497,7 +497,7 @@ transition: .4s;font-weight: 500;margin-top: 20px;}
         justify-content:center;
         margin-bottom: 20px;
         width: 100%;}
-    .registr-bg-color{width: 95%;}
+    .registr-bg-color{width: 100%;}
     .image-area{width: 100%;}
     .registr-text-content h1{font-size: 42px;font-weight: 600;font-family: "Roboto",sans-serif;
         width: 70%;}
@@ -522,7 +522,7 @@ transition: .4s;font-weight: 500;margin-top: 20px;}
     .events-details{right: 15px;}
     #events-bg-color{width: 100%; height: 1100px;}
     .first-man{max-width: 90%;}
-    footer{width: 95%;}
+    footer{width: 100%;}
 
 }
 @media(max-width:450px){.container{width: 90%;margin: auto 0;}
@@ -530,7 +530,7 @@ transition: .4s;font-weight: 500;margin-top: 20px;}
     .registr-time-contents{margin-right:50px ;align-items: center;justify-content: center;}
     .registr-time1,.registr-time2,.registr-time3,.registr-time4{margin-right: 0;padding: 10px 15px;}
     .registr-time2 span{text-align: center;}
-    .registr-time-contents{width: 90%;}
+    .registr-time-contents{width: 100%;}
     form{width: 60%;margin-right: 30px;}
     .registration{width: 100%;}
 } 
